@@ -8,8 +8,7 @@ I call them SMA_Fast and SMA_Slow, respectively.  I then create a signal column 
 
 After the above is done I create a training and testing dataset.  Most important here I then specify the beginning and end times
 for both the training and dataset.  The training timeframe I define as the beginning of the data plus three months.
-The testing timeframe I FIRST define as the end of the training timeframe to the end of the data's timeframe but on an HOURLY basis.
-Later on I will convert it back to a DAILY basis and compare to see how the models did.
+I then tweak this training time period and try beginning plus 6 months. 
 
 After the timeframes are defined I scale the data using StandardScaler.  I fit and transform the data, and then the fun begins.
 
