@@ -60,6 +60,7 @@ weighted avg       0.51      0.52      0.51      4092
 
 
 * Original Baseline Model but with 6 months of training
+
                  precision    recall  f1-score   support
 
         -1.0       0.44      0.02      0.04      1732
@@ -84,6 +85,7 @@ weighted avg       0.54      0.56      0.43      3943
 
 * Baseline Model with 3 months of training but new SMA windows of 8 and 50
 (The model seemed to break! I got a division by zero error and nothing would plot. You can see the -1 row is unhappy with 0s)
+
                 precision    recall  f1-score   support
 
         -1.0       0.00      0.00      0.00      1826
@@ -94,6 +96,7 @@ weighted avg       0.54      0.56      0.43      3943
 weighted avg       0.31      0.56      0.40      4147
 
 * LogisticRegression Model with 3 months of training but new SMA windows of 8 and 50
+
                 precision    recall  f1-score   support
 
         -1.0       0.44      0.23      0.30      1826
@@ -117,6 +120,7 @@ You can see I have fewer data at 4001 vs 4147 above with only 3 months of traini
 weighted avg       0.31      0.56      0.40      4001
 
 * LogisticRegression Model with 6 months of training but new SMA windows of 8 and 50
+
                  precision    recall  f1-score   support
 
         -1.0       0.43      0.06      0.11      1757
