@@ -131,7 +131,7 @@ weighted avg       0.50      0.55      0.44      4001
 
 ## Summary
 
-We had eight scenarios of the machine learning models:
+*  We had eight scenarios of the machine learning models:
 1. Baseline model with 3 months of training
 2. Baseline model with 6 months of training
 3. Baseline model with 3 months of training and new SMA windows of 8 and 50
